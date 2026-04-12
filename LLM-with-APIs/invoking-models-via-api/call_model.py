@@ -12,12 +12,14 @@ def call_bedrock_model(message: str):
   }
 
   response = client.invoke_model(
-    modelId="anthropic.claude-3-5-sonnet-20241022-v2:0",
+    modelId="deepseek.v3.2",
     body=json.dumps(payload)
   )
+  
 
   response_body = json.loads(response["body"].read())
-  return response_body["content"][0]["text"]
+  #print("Call Model RAW response",response_body)
+  return response_body["choices"][0]["message"]["content"]
 
 
 def call_bedrock_model_with_streaming(message: str):
@@ -35,7 +37,7 @@ def call_bedrock_model_with_streaming(message: str):
   })
 
   response = client.invoke_model_with_response_stream(
-    modelId='anthropic.claude-3-5-haiku-20241022-v1:0',
+    modelId='us.anthropic.claude-haiku-4-5-20251001-v1:0',
     body=payload
   )
 
