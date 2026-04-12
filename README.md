@@ -70,5 +70,5 @@ Ensure the Sagemaker Policy has access to:
 For any queries or issues, please contact:
 
 - Darren Kraker - dkraker@calpoly.edu
-- Kurt Colvin - kcolvin@calpoly.edu
+- Nick Osterbur - nosterbu@calpoly.edu
 
