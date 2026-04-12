@@ -109,8 +109,8 @@ call_bedrock_model_with_streaming("Write a short story about a robot")
 
 ### Understanding the Models
 The code uses two different AI models:
-- **Claude 3.5 Sonnet**: Great for complex reasoning and detailed responses
-- **Claude 3.5 Haiku**: Faster and more efficient for simpler tasks
+- **Claude Sonnet**: Great for complex reasoning and detailed responses
+- **Claude Haiku**: Faster and more efficient for simpler tasks
 
 ## Common Issues and Solutions
 
