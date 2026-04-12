@@ -29,6 +29,32 @@ Feel free to reach out if you have questions about:
 - **Python Programming**: Writing code to communicate with AI models
 - **API Integration**: How to connect your code to cloud services
 
+## 🎛️ Understanding Model Parameters
+
+Before we dive into prompting, let's understand the "knobs and dials" that control how AI models behave.
+
+### Temperature (Number 0-1)
+- Tells the model to pick words that have a lower/higher probability of appearing
+- **Low (0-0.3)**: Predictable, focused responses
+- **High (0.7-1.0)**: Creative, varied responses
+
+### Top P (Nucleus Sampling, Number 0-1)
+Controls which words the model considers based on probability.
+Chooses words that have probabilites adding up to your Top P
+- **Example**: "Today I went to the [park: 50%, store: 30%, moon: 10%, library: 10%]"
+- **Top P = 0.8**: Only considers "park" and "store" (80% combined)
+- **Lower values = more focused responses**
+
+### Top K
+Simply limits to the K most likely next words.
+- **Top K = 5**: Only considers the 5 most probable words
+- **Use either Temperature OR Top P OR Top K, not all at the same time**
+
+### Other Useful Parameters
+- **Max Length**: Stop after X tokens
+- **Stop Sequences**: Stop when model outputs specific text (like "END" or "---")
+- **Penalties**: Decreases a words probability each time it gets used to avoid repetitive sentences
+- 
 ## What This Code Does
 
 This project contains two main functions that demonstrate different ways to "talk" to an AI model:
@@ -109,8 +135,8 @@ call_bedrock_model_with_streaming("Write a short story about a robot")
 
 ### Understanding the Models
 The code uses two different AI models:
-- **Claude 3.5 Sonnet**: Great for complex reasoning and detailed responses
-- **Claude 3.5 Haiku**: Faster and more efficient for simpler tasks
+- **Claude Sonnet**: Great for complex reasoning and detailed responses
+- **Claude Haiku**: Faster and more efficient for simpler tasks
 
 ## Common Issues and Solutions
 
