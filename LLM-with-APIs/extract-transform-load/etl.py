@@ -67,11 +67,14 @@ def transform(text, prompt_path, config):
 
 def load(record, output_path):
     """Append result to a running JSON array file."""
+    data = []
     if os.path.exists(output_path):
-        with open(output_path) as f:
-            data = json.load(f)
-    else:
-        data = []
+        try:
+            with open(output_path) as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, ValueError):
+            print("[LOAD] Warning: existing output file was corrupted, starting fresh")
+            data = []
 
     data.append(record)
 

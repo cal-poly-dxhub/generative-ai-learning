@@ -161,7 +161,11 @@ extract-transform-load/
 
 ## Quick Start
 
-All commands run from the repo root (`generative-ai-learning/`).
+All commands assume you have navigated into this directory first:
+
+```bash
+cd generative-ai-learning/LLM-with-APIs/extract-transform-load
+```
 
 ### 1. Install dependencies
 
@@ -172,13 +176,13 @@ pip install boto3 pdfplumber
 ### 2. Extract a meeting agenda
 
 ```bash
-python LLM-with-APIs/extract-transform-load/etl.py --pdf data/Board-of-Supervisors-Agenda.pdf --prompt prompts/extract_meeting.txt
+python etl.py --pdf data/Board-of-Supervisors-Agenda.pdf --prompt prompts/extract_meeting.txt
 ```
 
 ### 3. Extract an invoice
 
 ```bash
-python LLM-with-APIs/extract-transform-load/etl.py --pdf data/invoice-sample.pdf --prompt prompts/extract_invoice.txt
+python etl.py --pdf data/invoice-sample.pdf --prompt prompts/extract_invoice.txt
 ```
 
 ### 4. Check the output
@@ -196,7 +200,7 @@ Edit `config.json` — swap the `model_id`, re-run, and compare quality/speed.
 ### Write your own prompt
 Create a new `.txt` file in `prompts/`. Use `{{PAYLOAD}}` where the PDF text should go. Run it:
 ```bash
-python LLM-with-APIs/extract-transform-load/etl.py --pdf data/Board-of-Supervisors-Agenda.pdf --prompt prompts/my_prompt.txt
+python etl.py --pdf data/Board-of-Supervisors-Agenda.pdf --prompt prompts/my_prompt.txt
 ```
 
 ## Config Reference
