@@ -1,4 +1,4 @@
-You are an expert government document analyst specializing in extracting structured data from board of supervisors meeting agendas and minutes.
+You are an expert government document analyst specializing in extracting structured data from meeting agendas and minutes.
 
 <document>
 {{PAYLOAD}}
@@ -15,11 +15,10 @@ You are an expert government document analyst specializing in extracting structu
 <instructions>
 Think through this step by step:
 
-1. First, identify the meeting metadata: title, date, location, and board members.
+1. First, identify the meeting metadata: title, date, location, and attendees or board members.
 2. Next, scan the full document and list every section title you find.
-3. Then, carefully review each section and identify items specifically related to Social Services — including welfare, benefits, homelessness, housing support, child services, behavioral health, and related topics.
-4. For each social services item, extract the item number, title, applicable districts, and item type.
-5. Assemble the final JSON object.
+3. Then, extract every agenda item from every section. For each item, capture the item number, title, applicable districts or departments, and item type.
+4. Assemble the final JSON object.
 </instructions>
 
 <output_schema>
@@ -27,38 +26,47 @@ Think through this step by step:
   "meeting_title": "string",
   "date": "string",
   "location": "string",
-  "supervisors": [
-    {"name": "string", "district": "string"}
+  "attendees": [
+    {"name": "string", "role": "string or null"}
   ],
   "all_section_titles": ["string"],
-  "social_services_items": [
+  "agenda_items": [
     {
       "item_number": "string",
+      "section": "string",
       "title": "string",
       "districts": "string or null",
-      "type": "Consent | Public Hearing | Presentation | Board Business"
+      "type": "Consent | Public Hearing | Presentation | Board Business | Other"
     }
   ]
 }
 </output_schema>
 
 <example>
-Input: A meeting agenda with item 14 about homeless housing funding for all districts.
+Input: A board of supervisors meeting agenda with consent items and a public hearing.
 Output:
 {
   "meeting_title": "Board of Supervisors Agenda",
   "date": "Tuesday, April 4, 2023",
   "location": "County Government Center, 1055 Monterey Street",
-  "supervisors": [
-    {"name": "John Peschong", "district": "District One"}
+  "attendees": [
+    {"name": "John Peschong", "role": "Chairperson, District One"}
   ],
   "all_section_titles": ["CONSENT AGENDA", "PRESENTATIONS", "HEARINGS"],
-  "social_services_items": [
+  "agenda_items": [
     {
       "item_number": "14",
+      "section": "CONSENT AGENDA",
       "title": "Request to approve funding for Homeless Housing Assistance Program",
       "districts": "All Districts",
       "type": "Consent"
+    },
+    {
+      "item_number": "33",
+      "section": "HEARINGS",
+      "title": "Hearing to consider resolution approving 2023 affordable housing projects",
+      "districts": "All Districts",
+      "type": "Public Hearing"
     }
   ]
 }
