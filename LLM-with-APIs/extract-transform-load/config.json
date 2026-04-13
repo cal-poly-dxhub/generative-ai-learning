@@ -1,0 +1,7 @@
+{
+  "model_id": "us.anthropic.claude-sonnet-4-20250514-v1:0",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "region": "us-west-2",
+  "profile_name": "457651165565_AdministratorAccess"
+}
