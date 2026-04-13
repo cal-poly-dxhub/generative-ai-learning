@@ -3,7 +3,8 @@ import json
 
 
 def call_bedrock_model(message: str):
-  client = boto3.client("bedrock-runtime", region_name="us-west-2")
+  session = boto3.Session(profile_name="GSB570-BedrockOnly-490332585640")
+  client = session.client("bedrock-runtime", region_name="us-west-2")
 
   payload = {
     "anthropic_version": "bedrock-2023-05-31",
@@ -15,7 +16,6 @@ def call_bedrock_model(message: str):
     modelId="deepseek.v3.2",
     body=json.dumps(payload)
   )
-  
 
   response_body = json.loads(response["body"].read())
   #print("Call Model RAW response",response_body)
@@ -23,7 +23,8 @@ def call_bedrock_model(message: str):
 
 
 def call_bedrock_model_with_streaming(message: str):
-  client = boto3.client("bedrock-runtime", region_name="us-west-2")
+  session = boto3.Session(profile_name="GSB570-BedrockOnly-490332585640")
+  client = session.client("bedrock-runtime", region_name="us-west-2")
 
   payload = json.dumps({
     "anthropic_version": "bedrock-2023-05-31",
@@ -57,6 +58,12 @@ def call_bedrock_model_with_streaming(message: str):
 
 
 def main():
+  session = boto3.Session(profile_name="GSB570-BedrockOnly-490332585640")
+  identity = session.client("sts").get_caller_identity()
+  print("Account:", identity["Account"])
+  print("UserId:", identity["UserId"])
+  print("Arn:", identity["Arn"])
+
   print(call_bedrock_model("What is the captial of France?"))
 
   call_bedrock_model_with_streaming('\n\nHuman: what is the capital of the United States\n\nAssistant:')
@@ -64,4 +71,3 @@ def main():
 
 if __name__ == "__main__":
   main()
-
