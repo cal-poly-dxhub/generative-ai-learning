@@ -1,0 +1,59 @@
+ Item 6c
+
+
+
+Department: Utilities
+Cost Center: 6003
+For Agenda of: 3/7/2023
+Placement: Consent
+Estimated Time: N/A
+
+FROM: Aaron Floyd, Utilities Director
+Prepared By: Mychal Boerman, Utilities Deputy Director - Water
+Miguel Barcenas, Utilities Deputy Director-Engineering and Planning
+Shawna Scott, Utilities Special Projects Manager
+
+SUBJECT: AUTHORIZE THE REPLACEMENT OF ACTIFLO MIXER GEARBOXES
+AS PART OF WATER TREATMENT PLANT MAJOR FACILITY
+MAINTENANCE
+
+RECOMMENDATION
+
+1. Approve the purchase and installation of replacement parts for the City’s Water
+Treatment Plant (WTP) Actiflo Mixer Gearboxes and authorize the City Manager to
+execute a Sole Source Purchase Agreement with MISCOwater in the amount of
+$500,322; and
+2. Authorize the use of Water Fund Undesignated Capital for the purchase and
+installation of replacement parts for the City Water Treatment Plant Actiflo Mixer s in
+the amount of $255,322, Specification No. 1000542-05; and
+3. Find the project exempt from the California Environmental Quality Act (CEQA).
+
+POLICY CONTEXT
+
+The City Utilities Department is responsible for providing uninterrupted water service to
+the community, the California Polytechnic State University campus, and the San Luis
+Obispo County Regional Airport. This project will provide necessary facility maintenance
+including the purchase of replacement parts to continue providing water service the
+community and contract based customers.
+
+DISCUSSION
+
+Background
+The City’s Water Treatment Plant (WTP) was originally constructed in 1961. In 1995, a
+significant upgrade to the plant was completed to meet changing water quality
+requirements. In April 2008, another major upgrade project was completed that replaced
+older equipment, added additional storage capacity for treated water, and enhanced
+treatment processes. The ongoing maintenance of the facilities and equipment at the
+WTP is necessary to prolong the useful life of the facilities and to ensure staff’s ability to
+operate the plant and treat water to state and federal standards.
+
+Proposed Project The City’s potable water is treated by a multi-step process including the mixing of aluminum sulfate (alum) and polymer flocculant1 with water to start a coagulation process. The alum and polymers neutralize the electrical charges on the fine particles in the water, allowing them to coagulate into larger particles and clumps (flocculation process). The next step in the water treatment process is ballasted flocculation, which improves the settling properties of suspended solids by adding a weighting or ballast material, such as micro-sand. The settled material is then collected and processed to separate the undesirable solids for disposal and return the ballast material back into the treatment cycle.  The ballasted flocculation system at the City’s WTP is an Actiflo® system, which includes six Philadelphia mixer gearboxes. The gearboxes were installed during the 2008 upgrade project described above and have an expected lifespan of 15 to 20 years. During an annual maintenance review, the technician recommended replacement of the gearboxes because they are at the end of their useful life. Based on the age of the equipment, the gearboxes need to be replaced, as the coagulation process is critical for the treatment and disinfection of the City’s potable water. The proposed maintenance project in cludes the purchase and in-kind replacement of six Philadelphia mixer gearboxes, including the polymer mixing unit’s gears, bearings, associated equipment related to the coagulation system, and gear oil. An authorized and factory-trained technician will supervise installation of the equipment and perform a factory-approved start-up and testing to ensure successful replacement and operation. The purchase would be sole sourced, as explained further in the Fiscal Analysis, below.  Previous Council or Advisory Body Action  The purchase of replacement parts for the Actiflo® Mixers is included in the City’s 2021-23 Financial Plan and Financial Plan Supplement.  Public Engagement The Project has been identified as a priority project in the Financial Plan Capital Improvement Plan, which is available for public review.   
+
+CONCURRENCE  
+The City’s Finance Director concurs with the Utilities Department ’s findings that the recommended purchase is consistent with required considerations for sole source purchasing. The project is consistent with the City’s Fiscal Health Contingency Pla n because the equipment replacement is necessary to continue providing potable drinking water to City customers, an essential service of the City. A polymer is a substance that has a molecular structure consisting predominantly or entirely of a large number of similar units bonded together. A flocculant is a substance that reacts with solids suspended in the water to form clumps (flocs). 
+
+ENVIRONMENTAL REVIEW  
+
+The City prepared a Notice of Exemption for the Generator Project in accordance with the California Environmental Quality Act (CEQA) (Attachment A). The Project is categorically exempt from CEQA pursuant to CEQA Guidelines Section 15301 (Existing Facilitie s). The project qualifies for this exemption because it consists of the in -kind replacement of equipment at the Water Treatment Plant and would not increase the capacity of the existing facility.  FISCAL IMPACT  Budgeted: Yes      Budget Year: 2022-23 Funding Identified: Yes  Fiscal Analysis:  Funding Sources Total Budget Available Current Funding Request Remaining Balance Annual Ongoing Cost Water Fund CIP 1000542 $245,000 $245,000 $0 N/A Undesignated Capital (Completed Projects) $1,412,903 $255,322 $1,157,581 N/A Total $1,657,903 $500,322 $1,157,581 N/A  The purchase of replacement parts for the Actiflo® Mixers is included in the City’s 2021-23 Financial Plan Supplement (Water Fund Capital Improvement Plan, Water Treatment Plant Major Facility Maintenance (Project No. 1000542-05). The Supplemental Budget document identifies a total of $245,0002 for the project in fiscal year 2022-23, noting that an additional $75,000 will be recommended in the 2023-25 Financial Plan for further retrofits related to the polymer mixing system, for an estimated total of $320,000. Of this amount, $245,000 is identified in the City’s approved Financial Plan.  Due to escalating supply costs, equipment purchase and installation including freight delivery is estimated to be $416,935 (Attachment B, Sole Source Letter and Bid Estimate). Inclusive of a 20% contingency, the total project cost would be $500,322. Therefore, an additional $255,322 is needed from the Water Fund, Undesignated Capital (Completed Projects) to fully fund the Project. The approximate current balance in Water Fund undesignated capital (funds remaining from completed projects) is $1,412,903.                                                  2 The 2022-23 Financial Plan Supplement includes the original $35,000 identified in the 2021 -23 Financial Plan and a supplemental $210,000 for the project, resulting in a total of $245,000.  
+
+Estimated Construction Costs  Philadelphia Mixer Bearing Replacements $416,935 Contingency (20%) $83,387 Total Project Cost $500,322  Sole Source Justification The City’s Municipal Code allows for sole source purchases under specific situations. Municipal Code Section 3.24.060 dictates that certain acquisitions can be purchased from a single “sole-source” without engaging in bidding procedures. Staff must justify their sole-source purchases through one of the following criteria as set forth in the Code:  A. When the amount to be expended is less than the bid requirement amount which shall be specified by resolution of the council; B. When an emergency purchase is made to address a si tuation that creates an immediate and serious need for equipment, supplies, or services that cannot be met through normal purchasing procedures and where the lack of such equipment, supplies or services would seriously threaten the functioning of city government, the preservation of property, or the health or safety of any person; C. When the item(s) to be purchased can be obtained from only one vendor or supplier; D. When supplies or equipment have been uniformly adopted in the city or otherwise standardized; E. When the purchase will be made cooperatively with one, or more, other units of government, or from a local dealer within the city limits that can provide the same brand, model and configuration of item(s) identified in cooperative purchase agreement(s) at or below the cooperative purchasing net cost within the same terms and conditions; F. When reasonably necessary for the preservation or protection of public peace, health, safety or welfare of persons or property; or G. When, given the indeterminate nature of the city’s need, a request for proposal will result in a more favorable and efficient comparison of supplies, equipment and/or services.   This item qualifies as a sole source purchase under criteria C as the equipment needs to be replaced in-kind, Philadelphia Mixing Solutions, LLC is the only supplier of the necessary equipment, and there is only one company (MISCOwater) that is authorized by Philadelphia Mixing Solutions, LLC to sell parts and provide service in the regional area including San Luis Obispo.   tem 6c ALTERNATIVES  Deny or defer approval to purchase.  The City Council may choose to deny or defer the approval to purchase the equipment. Staff does not recommend this alternative as the purchase and installation is needed to maintain equipment critical to the WTP’s potable water treatment process and compliance with state and federal drinking water standards.  ATTACHMENTS  A - WTP Actiflo Mixers Replacement Notice of Exemption B - MISCOwater and Philadelphia Mixing Solutions Sole Source Letter and Bid Estimate C - Project Vicinity Map (Specification No. 1000542-05) 
