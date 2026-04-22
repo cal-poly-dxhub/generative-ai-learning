@@ -1,6 +1,8 @@
 boto3
 botocore
 numpy
+pandas
+pyarrow
 spacy
 torch
 torchvision
