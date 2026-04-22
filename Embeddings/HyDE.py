@@ -123,28 +123,20 @@ def generate_hyde_response(query_phrase):
     Returns:
         A paragraph of hypothetical answer text (string)
     """
-    model_id = "us.amazon.nova-pro-v1:0"
+    model_id = "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
 
     body = json.dumps({
-        "inferenceConfig": {
-            "max_new_tokens": 400,
-            "temperature": 1.0,
-            "top_p": 0.9
-        },
-        "system": [
-            {"text": "You are a helpful assistant."}
-        ],
+        "anthropic_version": "bedrock-2023-05-31",
+        "max_tokens": 400,
+        "temperature": 1.0,
+        "system": "You are a helpful assistant.",
         "messages": [
             {
                 "role": "user",
-                "content": [
-                    {
-                        "text": f"Given the following question:\n{query_phrase}\n\n"
-                                f"Please generate a paragraph of text that answers the question. "
-                                f"Be sure to use scientific medical terminology. "
-                                f"Please just include the paragraph in your response."
-                    }
-                ]
+                "content": f"Given the following question:\n{query_phrase}\n\n"
+                           f"Please generate a paragraph of text that answers the question. "
+                           f"Be sure to use scientific medical terminology. "
+                           f"Please just include the paragraph in your response."
             }
         ]
     })
@@ -161,7 +153,7 @@ def generate_hyde_response(query_phrase):
         print(f"  LLM call took: {end_time - start_time:.1f}s")
 
         response_body = json.loads(response.get('body').read())
-        return response_body['output']['message']['content'][0]['text']
+        return response_body['content'][0]['text']
 
     except Exception as e:
         raise RuntimeError(f"HyDE document generation failed: {e}") from e
