@@ -3,8 +3,7 @@ import json
 
 
 def call_bedrock_model(message: str):
-  session = boto3.Session(profile_name="GSB570-BedrockOnly-490332585640")
-  client = session.client("bedrock-runtime", region_name="us-west-2")
+  client = boto3.client("bedrock-runtime", region_name="us-west-2")
 
   payload = {
     "anthropic_version": "bedrock-2023-05-31",
@@ -23,8 +22,7 @@ def call_bedrock_model(message: str):
 
 
 def call_bedrock_model_with_streaming(message: str):
-  session = boto3.Session(profile_name="GSB570-BedrockOnly-490332585640")
-  client = session.client("bedrock-runtime", region_name="us-west-2")
+  client = boto3.client("bedrock-runtime", region_name="us-west-2")
 
   payload = json.dumps({
     "anthropic_version": "bedrock-2023-05-31",
@@ -58,8 +56,7 @@ def call_bedrock_model_with_streaming(message: str):
 
 
 def main():
-  session = boto3.Session(profile_name="GSB570-BedrockOnly-490332585640")
-  identity = session.client("sts").get_caller_identity()
+  identity = boto3.client("sts").get_caller_identity()
   print("Account:", identity["Account"])
   print("UserId:", identity["UserId"])
   print("Arn:", identity["Arn"])
