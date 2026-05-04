@@ -1,0 +1,13 @@
+{
+  "claim_id": "CLM-2024-00847",
+  "policy_id": "POL-CA-20221015",
+  "claimant_name": "Margaret Chen",
+  "loss_date": "2024-09-15",
+  "filed_date": "2024-10-02",
+  "claim_amount": 185000.00,
+  "property_address": "4521 Industrial Blvd, Los Angeles, CA 90058",
+  "property_type": "warehouse",
+  "cause_of_loss": "fire",
+  "description": "Fire originating in electrical panel caused significant damage to warehouse interior, inventory, and HVAC system.",
+  "state": "CA"
+}

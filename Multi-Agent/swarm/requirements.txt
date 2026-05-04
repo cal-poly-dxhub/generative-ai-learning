@@ -1,0 +1,7 @@
+strands-agents[bedrock]
+strands-agents-tools
+python-dotenv
+Pillow
+pyfiglet
+numpy
+matplotlib

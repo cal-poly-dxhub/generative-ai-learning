@@ -1,0 +1,34 @@
+[
+  {
+    "policy_id": "POL-CA-20221015",
+    "claimant_name": "Margaret Chen",
+    "claim_date": "2023-01-20",
+    "claim_amount": 8500.00,
+    "cause_of_loss": "water_damage",
+    "status": "paid"
+  },
+  {
+    "policy_id": "POL-CA-20221015",
+    "claimant_name": "Margaret Chen",
+    "claim_date": "2023-08-05",
+    "claim_amount": 62000.00,
+    "cause_of_loss": "theft",
+    "status": "paid"
+  },
+  {
+    "policy_id": "POL-CA-20221015",
+    "claimant_name": "Margaret Chen",
+    "claim_date": "2024-03-12",
+    "claim_amount": 145000.00,
+    "cause_of_loss": "vandalism",
+    "status": "under_review"
+  },
+  {
+    "policy_id": "POL-CA-20221015",
+    "claimant_name": "Margaret Chen",
+    "claim_date": "2024-06-28",
+    "claim_amount": 12000.00,
+    "cause_of_loss": "water_damage",
+    "status": "paid"
+  }
+]
